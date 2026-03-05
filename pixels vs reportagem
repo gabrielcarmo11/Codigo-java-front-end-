@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Imagem Responsiva</title>
+
+  <style>
+
+    body {
+      font-family: Arial;
+      text-align: center;
+    }
+
+    .container {
+      margin-bottom: 30px;
+    }
+
+    /* IMAGEM EM PIXELS */
+    .pixel {
+      width: 400px;
+    }
+
+    /* IMAGEM EM PORCENTAGEM (FLUID GRID) */
+    .porcentagem {
+      width: 80%;
+    }
+
+  </style>
+</head>
+<body>
+
+  <h1>Pixels vs Porcentagem</h1>
+
+  <div class="container">
+    <h2>Imagem com largura fixa (Pixels)</h2>
+    <img src="https://picsum.photos/800/400" class="pixel">
+  </div>
+
+  <div class="container">
+    <h2>Imagem com largura em %</h2>
+    <img src="https://picsum.photos/800/400" class="porcentagem">
+  </div>
+
+</body>
+</html>
